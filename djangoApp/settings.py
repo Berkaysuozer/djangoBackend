@@ -61,6 +61,7 @@ CORS_ORIGIN_WHITELIST = [
     'http://localhost:8000',
     'http://127.0.0.1:9000',
     'http://localhost:5173',
+    'http://testbackend-env.eba-7kd2yjex.us-east-1.elasticbeanstalk.com',
 ]
 
 CSRF_TRUSTED_ORIGINS = [
@@ -69,6 +70,7 @@ CSRF_TRUSTED_ORIGINS = [
     'http://localhost:8000',
     'http://127.0.0.1:9000',
     'http://localhost:5173',
+    'http://testbackend-env.eba-7kd2yjex.us-east-1.elasticbeanstalk.com',
 ]
 
 ROOT_URLCONF = 'djangoApp.urls'
