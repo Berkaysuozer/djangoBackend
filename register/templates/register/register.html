@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<title>register</title>
+<body>
+
+{%block content%}
+    <form method='POST' class="form-group">
+        {% csrf_token %}
+        {{form}}
+        <button type='submit'> Register</button>
+    </form>
+{%endblock%}
+
+
+</body>
+</html>
